@@ -6,7 +6,7 @@ if (!global.segment) {
 
 let ret = [];
 
-logger.info(logger.yellow(正在载入猫娘插件));
+logger.info(logger.yellow('正在载入猫娘插件'));
 
 const files = fs
   .readdirSync('./plugins/maoniang-plugin/apps')
