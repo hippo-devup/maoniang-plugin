@@ -1,0 +1,22 @@
+{
+  "name": "maoniang-plugin",
+  "version": "0.0.1",
+  "description": "基于Yunzai-Bot的猫娘插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "module": "index.js",
+  "dependencies": {
+    "gpti": "^2.1.2"
+  },
+  "keywords": [
+    "Yunzai-Bot",
+    "云崽",
+    "GPT",
+    "ChatBot"
+  ],
+  "author": "@hippo",
+  "license": "GPLv3"
+}
