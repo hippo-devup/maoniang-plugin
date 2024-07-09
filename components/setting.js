@@ -6,14 +6,14 @@ import { _path, pluginResources, pluginRoot } from './path.js'
 class Setting {
   constructor () {
     /** 默认设置 */
-    this.defPath = `${_path}/plugins/uploader/defSet/`
+    this.defPath = `${_path}/plugins/maoniang-plugin/defSet/`
     this.defSet = {}
 
     /** 用户设置 */
-    this.configPath = `${_path}/plugins/uploader/config/`
+    this.configPath = `${_path}/plugins/maoniang-plugin/config/`
     this.config = {}
 
-    this.dataPath = `${_path}/plugins/uploader/data/`
+    this.dataPath = `${_path}/plugins/maoniang-plugin/data/`
     this.data = {}
 
     /** 监听文件 */
